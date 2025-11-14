@@ -6,6 +6,7 @@
     $username = "postgres";
     $password = "1261";
     $dsn = "pgsql:host=$host;port=$port;dbname=$dbname";
+
     try {
         $database_pdo = new PDO($dsn, $username, $password);
 

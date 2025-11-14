@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Merriweather_24pt-Regular';
-    src: url(./assets/fonts/static/Merriweather_24pt-Regular.ttf) format('ttf');
+    src: url(../fonts/static/Merriweather_24pt-Regular.ttf) format('truetype');
 }
 
 * {
@@ -19,17 +19,20 @@ body{
     background: url(../images/log_background.png);
     background-repeat: no-repeat;
     transition: all 0.5s ease 0s;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 body:hover{
     background: url(../images/log_background_blurred.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .login_box{
     margin: 0 15px;
 }
 
-.form_box{
+form{
     width: 100%;
     max-width: 450px;
     padding: 30px;
@@ -42,7 +45,6 @@ h1{
     font-weight: 900;
     text-align: center;
     margin-bottom: 1.25rem;
-    font-family: 'Merriweather_24pt-Regular';
 }
 input{
     width: 100%;
@@ -54,7 +56,6 @@ input{
     font-size: 16px;
     color: #333;
     margin-bottom: 20px;
-    font-family: 'Merriweather_24pt-Regular';
 }
 .login_center{
     width: 100%;
@@ -68,17 +69,17 @@ input{
     font-weight: 500;
     margin-bottom: 20px;
     transition: 0.5s;
-    font-family: 'Merriweather_24pt-Regular';
 }
 .login_center:hover {
     background-color: #337418;
 }
+
 p {
     font-size: 14.5px;
     text-align: center;
     margin-bottom: 10px;
-    font-family: 'Merriweather_24pt-Regular';
 }
+
 p .register{
     color: #489527;
     text-decoration: none;

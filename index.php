@@ -1,6 +1,3 @@
-<?php
-    include("./includes/header.html")
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,14 +7,15 @@
     <title>Scholarship</title>
 </head>
 <body>
+    <?php include("./includes/header.html") ?>
 <section>
-    <img id="background" src="./assets/images/background_lib.png" alt="library">
+    <img id="background" src="./assets/images/background_lib.png" alt="library background">
     <div id="center_text">
-        <h3 id ="text">Your Future Starts Here!</h3>
-        <p id ="text">Apply, track, and manage your scholarship easily</p>
-        <button class="Signup"><a class="sign" href="../auth/signup.php">Signup</a></button>
+        <h3 class ="center_text_heading">Your Future Starts Here!</h3>
+        <p class ="center_text_subheading">Apply, track, and manage your scholarship easily</p>
+        <a class="signup_button" href="../auth/signup.php">Signup</a>
     </div>
-    <img id="foreground" src="./assets/images/foreground_lib.png" alt="library">
+    <img id="foreground" src="./assets/images/foreground_lib.png" alt="library foreground">
 </section>
 </body>
 </html>
