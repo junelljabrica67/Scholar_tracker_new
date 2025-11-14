@@ -1,0 +1,106 @@
+@font-face{
+    font-family: 'Merriweather_24pt-Regular';
+    src: url(./assets/fonts/static/Merriweather_24pt-Regular.ttf) format('ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li, .center_link, button {
+    font-family: 'Merriweather_24pt-Regular';
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+
+header {
+    width: 100%;
+    padding: 10px 3%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.left, .center, .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+.left {
+    gap: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Merriweather_24pt-Regular';
+    color: white;
+}
+
+.center {
+    justify-content: center;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.right {
+    justify-content: flex-end;
+
+}
+
+.Login button {
+    padding: 9px 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.Login button:hover {
+    background-color: #337418;
+
+}
+
+
+body {
+    padding-top: 80px;
+}
+
+
+.logo{
+    height: 15%;
+    width: 15%;
+}
+
+h2{
+    font-size: 32px;
+    color: white;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav_links li .center_link{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li .center_link:hover{
+    color:#337418;
+}

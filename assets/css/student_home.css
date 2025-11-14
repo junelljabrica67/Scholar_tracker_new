@@ -1,0 +1,62 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     flex-direction: column;
+ }
+
+ body {
+     height: 100%;
+     font-family: 'Georgia';
+     color: white;
+ }
+
+ .background {
+
+     background-image: url('../images/background_lib.png');
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     width: 100vw;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+ }
+
+ .content {
+     max-width: 700px;
+     padding: 0 20px;
+ }
+
+ h1 {
+    font-family:'Georgia';
+     font-size: 3.5rem;
+     font-weight: 900;
+     margin-bottom: 20px;
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+ }
+
+ .button {
+     display: center;
+     background: whitesmoke;
+     color: #333;
+     font-weight: bold;
+     font-size: 1.1rem;
+     padding: 12px 30px;
+     border-radius: 30px;
+     cursor: pointer;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+     transition: 0.3s ease, color 0.3s ease;
+
+ }
+
+ button {
+     background-color: whitesmoke;
+     font-family: 'Georgia';
+     font-weight: bold;
+     font-size: 1.1rem;
+     border: none;
+ }

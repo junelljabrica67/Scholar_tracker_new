@@ -1,0 +1,105 @@
+@font-face{
+    font-family: 'Merriweather_24pt-Regular';
+    src: url(./assets/fonts/static/Merriweather_24pt-Regular.ttf) format('ttf');
+}
+
+* {
+    font-family: 'Merriweather_24pt-Regular';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background: url(../images/log_background.png);
+    background-repeat: no-repeat;
+    transition: all 0.5s ease 0s;
+}
+
+body:hover{
+    background: url(../images/log_background_blurred.png);
+    background-repeat: no-repeat;
+}
+.login_box{
+    margin: 0 15px;
+}
+
+.form_box{
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1{
+    font-size: 34px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1.25rem;
+    font-family: 'Merriweather_24pt-Regular';
+}
+input{
+    width: 100%;
+    padding: 12px;
+    background: #eee;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Merriweather_24pt-Regular';
+}
+.login_center{
+    width: 100%;
+    padding: 12px;
+    background: #489527;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    font-family: 'Merriweather_24pt-Regular';
+}
+.login_center:hover {
+    background-color: #337418;
+}
+p {
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Merriweather_24pt-Regular';
+}
+p .register{
+    color: #489527;
+    text-decoration: none;
+}
+p .register:hover {
+    text-decoration: underline;
+}
+
+.error_message{
+    background-color: #f8d7da;
+    color: #a42834;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.success_message{
+    background-color: #dbf8d7;
+    color: #2ea428;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
