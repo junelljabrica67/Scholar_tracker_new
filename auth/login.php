@@ -1,6 +1,5 @@
 <?php
     session_start();
-
     require __DIR__ . '/../handlers/message_handler.php'; 
 ?>
 <!DOCTYPE html>
